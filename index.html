@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=0.2">
+  <meta charset="utf-8">
+  <meta name="description"
+        content="LARM">
+  <meta name="keywords" content="Embodied Intelligence, Minecraft Agent">
+  <title>LARM</title>
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/webpage_logo.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<style>
+  video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            <img src="./static/images/Larm.png" alt="图标描述" style="width: 80; height: 146px; vertical-align: middle; margin-right: 0px; position: relative; top: -8px;">
+            LARM: Large Auto-Regressive Model for Long-Horizon Embodied Intelligence
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://lizhuoling.github.io/">Zhuoling Li</a><sup>1</sup></a>&nbsp</a>&nbsp  
+            </span>
+            <span class="author-block">
+              <a href="https://xuxiaogang.com/">Xiaogang Xu</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://tonyxuqaq.github.io/">Zhenhua Xu</a><sup>1</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=HX0BfLYAAAAJ">SerNam Lim</a><sup>3</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://hszhao.github.io/">Hengshuang Zhao</a><sup>1</sup></a>&nbsp</a>&nbsp    
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>The University of Hong Kong</a>&nbsp</a>&nbsp  </span>
+            <span class="author-block"><sup>2</sup>The Chinese University of Hong Kong</a>&nbsp</a>&nbsp  </span>
+            <span class="author-block"><sup>3</sup>University of Central Florida  </span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- To Do: Replace this paper link. -->
+              <span class="link-block">
+                <a href=   "https://arxiv.org/abs/arxiv_link" 
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=7ajieVAuob8"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Demo</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=JxaqPpDPnec"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section"  style="margin-top: 0; padding-top: 30px;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="text-align: center;">Overall Introduction</h2>
+        <div class="center" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" 
+                  src="https://www.youtube.com/embed/kirs8RPCb9U" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section"  style="margin-top: 0; padding-top: 30px;">
+  <div style="background-color: #f5f5f5;">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3" style="text-align: center;">Video Demo of Crafting an Enchanted Diamond Sword</h2>
+          <div class="center-text">
+            &nbsp;&nbsp;&nbsp;&nbsp; In this video, we show how LARM crafts an enchanted diamond sword in Minecraft with no initial inventory. 
+            To save time, we mainly present important segments for crafting the enchanted diamond sword.
+          </div>
+          <div class="center" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" 
+                    src="https://www.youtube.com/embed/a-nKoJ8xRT0" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp; Due to the need to interact with the real world, embodied agents are required to possess comprehensive prior knowledge, long-horizon planning capability, and a swift response speed. 
+            Despite recent large language model (LLM) based agents achieving promising performance, they still exhibit several limitations. 
+            For instance, the output of LLMs is a descriptive sentence, which is ambiguous when determining specific actions. 
+            To address these limitations, we introduce the large auto-regressive model (LARM). 
+            LARM leverages both text and multi-view images as input and predicts subsequent actions in an auto-regressive manner. 
+            To train LARM, we develop a novel data format named auto-regressive node transmission structure and assemble a corresponding dataset. 
+            Adopting a two-phase training regimen, LARM successfully harvests enchanted equipment in Minecraft, which demands significantly more complex decision-making chains than the highest achievements of prior best methods. 
+            Besides, the speed of LARM is 6.8x faster.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div style="background-color: #f5f5f5;">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3" style="text-align: center;">Pipeline</h2>
+          <div class="content has-text-justified">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; The overall framework of LARM. 
+              In this framework, the network takes the target task description, multi-view images, agent information, and environment feedback as input to predict a skill token. 
+              The skill token is matched with the skill embeddings, which are generated based on a pre-prepared skill library, to select the optimum skill. 
+              Then, the agent performs this skill, which helps the agent one step closer to completing the target and changes the environment.
+            </p>
+          </div>
+
+          <div class="image-area">
+            <img src="./static/images/pipeline.png" alt="pipeline" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div style="background-color: #ffffff;">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3" style="text-align: center;">More Capability Examples</h2>
+          <div class="content has-text-justified">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; More capability examples of LARM,
+              which include traveling a long distance to find a village, building a nether portal and entering the nether, multiple agents collaboration to combat zombies.
+            </p>
+          </div>
+
+          <div class="image-area">
+            <img src="./static/images/case_study.png" alt="pipeline" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- To Do: Replace the arxiv paper description. -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{li2024larm,
+      title={LARM: Large Auto-Regressive Model for Long-Horizon Embodied Intelligence},
+      author={Zhuoling, Li and Xiaogang, Xu and Zhenhua, Xu and SerNam, Lim and Hengshuang, Zhao},
+      journal={xxx},
+      year={2024}
+    }</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="content">
+        <p>
+          The template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
