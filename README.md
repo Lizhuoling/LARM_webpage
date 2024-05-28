@@ -7,7 +7,7 @@ If you find LARM useful for your work please cite:
 @article{li2024larm,
       title={LARM: Large Auto-Regressive Model for Long-Horizon Embodied Intelligence},
       author={Li, Zhuoling and Xu, Xiaogang and Xu, Zhenhua and SerNam, Lim and Hengshuang Zhao},
-      journal={arXiv preprint arXiv:xxx},
+      journal={arXiv preprint arXiv:2405.17424},
       year={2024}
     }
 ```
